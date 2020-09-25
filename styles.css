@@ -13,6 +13,18 @@
   margin: auto;
 }
 
+.body {
+  display: relative;
+  padding: 0;
+  margin: 0;
+
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+}
+
 h3 {
   padding-right: 20px;
   font-size: 20px;
@@ -42,4 +54,26 @@ h3 {
 .the_pics{
   height: 300px;
   width: 210px;
+}
+#rick-roll {
+  display: absolute;
+  top: 50%
+  height: 100%;
+  width: 100%;
+  padding: 30px 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#rick {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  width: 250px;
+}
+h4 {
+  text-align: center;
+  padding-top: 10%;
+  justify-content: space-around;
 }
