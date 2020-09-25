@@ -17,3 +17,29 @@ h3 {
   padding-right: 20px;
   font-size: 20px;
 }
+.about_column{
+  float:left;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.about_pics{
+  margin: 8px;
+  text-align: center;
+}
+#about_header{
+  text-align: center;
+}
+.about_container{
+  padding: 0 16px;
+}
+.about_container::after, .about_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.the_pics{
+  height: 300px;
+  width: 210px;
+}
