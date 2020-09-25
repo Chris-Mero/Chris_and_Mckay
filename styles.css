@@ -77,3 +77,19 @@ h4 {
   padding-top: 10%;
   justify-content: space-around;
 }
+h1 {
+  text-align: center;
+  padding-top: 3%;
+  justify-content: space-around;
+}
+#home_text{
+  display: absolute;
+  top: 50%
+  height: 100%;
+  width: 100%;
+  padding: 30px 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
